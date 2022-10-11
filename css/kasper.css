@@ -330,6 +330,11 @@ header nav .form i {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 53px;
 }
+@media (max-width: 767px) {
+    .SERVICES .service-content {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 .SERVICES .col .srv {
     display: flex;
